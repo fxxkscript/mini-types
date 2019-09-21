@@ -161,11 +161,11 @@ declare namespace tinyapp {
  * 接受一个 object 参数，其指定页面的初始数据、生命周期函数、事件处理函数等。
  */
 /* tslint:disable:no-unnecessary-generics */
-declare function Page<D>(options: tinyapp.PageOptions<D>): void;
+// declare function Page<D>(options: tinyapp.PageOptions<D>): void;
 /* tslint:enable:no-unnecessary-generics */
 
 /**
  * getCurrentPages() 函数用于获取当前页面栈的实例，
  * 以数组形式按栈的顺序给出，第一个元素为首页，最后一个元素为当前页面。
  */
-declare function getCurrentPages(): Array<tinyapp.IPageInstance<any>>;
+// declare function getCurrentPages(): Array<tinyapp.IPageInstance<any>>;

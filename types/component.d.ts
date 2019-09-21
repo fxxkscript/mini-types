@@ -99,11 +99,11 @@ declare namespace tinyapp {
 }
 
 /* tslint:disable:no-unnecessary-generics */
-declare function Component<P, D, M extends tinyapp.IComponentMethods>(
-  options: tinyapp.ComponentOptions<
-    P,
-    D,
-    M
-  >
-): void;
+// declare function Component<P, D, M extends tinyapp.IComponentMethods>(
+//   options: tinyapp.ComponentOptions<
+//     P,
+//     D,
+//     M
+//   >
+// ): void;
 /* tslint:enable:no-unnecessary-generics */

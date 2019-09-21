@@ -234,7 +234,7 @@ declare namespace my {
      * 无语的设计@小程序
      * 参考: https://docs.alipay.com/mini/api/ui-feedback#a-name7bgvmdamyhideloading
      */
-    page?: tinyapp.IPageInstance<any>;
+    page?: any;
   }
 
   /**
