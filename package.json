@@ -1,6 +1,6 @@
 {
-  "name": "mini-types",
-  "version": "0.0.4",
+  "name": "@remax/mini-types",
+  "version": "0.0.5",
   "description": "TypeScript declarations for Alipay's mini program.",
   "scripts": {
     "lint": "dtslint types",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ant-mini-program/mini-types.git"
+    "url": "git@github.com:remaxjs/mini-types.git"
   },
   "keywords": [
     "tinyapp",
@@ -19,5 +19,6 @@
   "devDependencies": {
     "dtslint": "^0.7.2"
   },
+  "main": "./types/index.d.ts",
   "types": "./types/index.d.ts"
 }
