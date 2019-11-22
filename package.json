@@ -1,6 +1,6 @@
 {
   "name": "@remax/mini-types",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "TypeScript declarations for Alipay's mini program.",
   "scripts": {
     "lint": "dtslint types",
