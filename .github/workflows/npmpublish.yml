@@ -15,12 +15,12 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: git checkout master
+      - run: npm install
+      - run: npm publish
       - run: git remote add upstream https://darmody:${{secrets.GITHUB_TOKEN}}@github.com/remaxjs/mini-types.git
       - run: git config --global user.email "eterlf41@gmail.com"
       - run: git config --global user.name "Caihuanyu"
       - run: npm version patch -m "Bump version [ci skip]"
       - run: git push upstream master --tags
-      - run: npm install
-      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
