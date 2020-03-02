@@ -2,7 +2,7 @@
  * @file 用户授权
  */
 declare namespace my {
-  type GetAuthCodeOptionsScope = 'auth_base' | 'auth_user' | 'auth_zhima';
+  type GetAuthCodeOptionsScope = 'auth_base' | 'auth_user' | 'auth_zhima' | 'auth_life_msg';
 
   interface IGetAuthCodeSuccessResult {
     /**
